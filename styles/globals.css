@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: MyFont;
+    src: url("../public/font/yekanbakh/YekanBakhFaNum-Bold.woff");
+  }
+
+
+
+
+  @layer base {
+    @font-face {
+      font-family: 'bakh';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(/public/font/yekanbakh/YekanBakhFaNum-Black.woff) format('woff2');
+    }
+  }
+
+
+
+  
+  body{
+    font-family: bakh;
+  }
+  *{
+    font-family: MyFont;
+  }
+
